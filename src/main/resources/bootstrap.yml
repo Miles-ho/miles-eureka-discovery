@@ -19,6 +19,6 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://root:iOoowjrj2knji@localhost:8761/eureka/
+      defaultZone: http://root:iOoowjrj2knji@dina-com:8761/eureka/
   instance:
     instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
